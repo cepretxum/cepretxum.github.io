@@ -1,16 +1,42 @@
+
 <html>
 
+<head>
 
-  <head>
+</head>
+
+<body>
+
+<center>
+    <form>
+        <input type="button" value="check connection" onclick="check()">
+    </form>
+
     
-  </head>
 
-  <body>
+</center>
 
-    <h1>App1</h1>
+<script>
 
-    <script>
-      alert(0);
-    </script>
-  </body>
+    function check(){
+
+    if(Network.isConnected()){
+       Android.makeToast("You are connected");
+
+
+    }else{
+       Android.makeToast("Not connected");
+    }
+
+    }
+
+
+</script>
+
+</body>
+
+
 </html>
+
+
+
