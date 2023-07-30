@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html parsing</title>
+</head>
+<body>
+    
+
+    <script>
+
+var imdb_html = document.createElement( 'html' );
+
+imdb_html.innerHTML = "<html><head><title>titleTest</title></head><body><a href='https://you-got-me/haha'>test01</a><a href='test1'>test02</a><a href='test2'>test03</a></body></html>";
+
+movie_link = imdb_html.getElementsByTagName( 'a' );
+
+alert(target[0].href);
+
+</script>
+
+
+
+</body>
+</html>
