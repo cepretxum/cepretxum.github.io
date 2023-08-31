@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+  }
+  .box {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    background: orange;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  .logo {
+    position: absolute;
+    left: 70px;
+    right: 70px;
+    height: 60px;
+    background: orange;
+    transform: skewY(0deg);
+    border-radius: 10px;
+  }
+  .logo-1 {
+    top: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  }
+
+  .logo-1-layer-1{
+    top :75px;
+    height: 30px;
+    background: yellow;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  }
+
+  .logo-2 {
+    top: 140px;
+    transform: skewY(45deg);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+  }
+
+  .logo-2-layer-1 {
+    top: 155px;
+    height: 30px;
+    transform: skewY(30deg);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    background: yellow;
+    border-radius: 0%;
+  }
+
+
+  .logo-3 {
+    bottom: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  }
+
+  .logo-3-layer-1{
+    bottom:75px;
+    height: 30px;
+    background: yellow;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  }
