@@ -99,11 +99,12 @@
     justify-content: space-around;
   }
   .genre div {
-    border: 1px solid #a0a0a0;
+    border: 1px solid yellow;
     font-size: 0.75em;
     padding: 0.4em 1.6em;
     border-radius: 0.4em;
     font-weight: 300;
+    color:yellow;
   }
   h3 {
     direction: rtl;
@@ -111,11 +112,12 @@
     margin-top: 1.2em;
   }
   p {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 300;
     line-height: 1.8em;
     text-align: justify;
-    color: #a0a0a0;
+    color: rgb(243, 173, 43);
+    direction: rtl;
   }
   .msg {
     text-align: center;
@@ -125,18 +127,15 @@
     background-color: #201f28;
     display: block;
     text-align: center;
-    font-size: 1em;
-    padding: 0.8em 0;
+    font-size: 2em;
+    padding: 0.2em 0;
     margin-top: 1em;
     margin-bottom: 3em;
     border-radius: 0.6em;
     color: #ffb92a;
   }
   
-  a {
-    color: #4fb92a;
-    text-decoration: none;
-  }
+  
   @media screen and (max-width: 600px) {
     .wrapper {
       width: 95vw;
