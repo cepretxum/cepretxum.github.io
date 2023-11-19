@@ -1,0 +1,29 @@
+{
+    "type":"movie",
+    "imdbId":"tt0449088",
+    "name":"Pirates of the Caribbean: At World's End",
+    "image":"https://m.media-amazon.com/images/M/MV5BMjIyNjkxNzEyMl5BMl5BanBnXkFtZTYwMjc3MDE3._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "description":"Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.",
+    "arDescription":"يجب على الكابتن باربوسا وويل تيرنر وإليزابيث سوان الإبحار من حافة الخريطة ، والتنقل في الخيانة والخيانة ، والعثور على جاك سبارو ، وإجراء تحالفاتهم النهائية لمعركة حاسمة أخيرة.",
+    
+    "rating":"7.1",
+    "certificate":"PG-13",
+    "genre":["Action","Adventure","Fantasy"],
+   
+    "year":"2007",
+    "time":"2h 49m",
+
+    "related":["tt0325980","tt0383574","tt1298650","tt1790809"],
+
+    "signed":"false",
+
+    "hasASubtitle":"false",
+    "video":[
+        {
+            "provider":"mediafire",
+            "url":""
+        }
+    ]
+
+
+}

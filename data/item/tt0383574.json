@@ -1,0 +1,29 @@
+{
+    "type":"movie",
+    "imdbId":"tt0383574",
+    "name":"Pirates of the Caribbean: Dead Man's Chest",
+    "image":"https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "description":"Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as other friends and foes seek the heart for their own agenda as well.",
+    "arDescription":"يتسابق جاك سبارو لاستعادة قلب ديفي جونز لتجنب استعباد روحه لخدمة جونز ، حيث يبحث الأصدقاء والأعداء الآخرون عن قلب أجندتهم الخاصة أيضا.",
+    
+    "rating":"7.4",
+    "certificate":"PG-13",
+    "genre":["Action","Adventure","Fantasy"],
+   
+    "year":"2006",
+    "time":"2h 31m",
+
+    "related":["tt0325980","tt0449088","tt1298650","tt1790809"],
+
+    "signed":"false",
+
+    "hasASubtitle":"false",
+    "video":[
+        {
+            "provider":"mediafire",
+            "url":""
+        }
+    ]
+
+
+}
