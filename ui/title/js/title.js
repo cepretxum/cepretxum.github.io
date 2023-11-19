@@ -12,9 +12,41 @@ let result = document.getElementById("result");
 function drawCards(related_data){
 
   for (var i in related_data){
-    var div = document.createElement("div");
-    div.innerHTML = `<div class='card'>test card${i}</div>`;
-    $("related").appendChild(div);
+
+
+    fetch(`/data/item/${related_data[i]}.json`)
+         .then((resp)=>resp.json())
+         .then((data)=>{
+
+          var div = document.createElement("div");
+          div.innerHTML = `<div class='card'>
+          <div class="title_poster"><img src="${data.image}" width="100%" height="100%"></img> </div>
+          <div class="title_name">${data.name.slice(0, 20) + "..."}</div>
+          <div class="title_genre" id="title_genre"><div class="genre_box">${translate_list(data.genre).join("</div><div class='genre_box'>")}</div></div>
+
+
+          <div class="year_imdb">
+
+          <div class="title_year">${data.year}</div>
+
+          <div class="title_imdb">
+
+
+          <div class="title_imdb_star"> <div class="full-star"></div> </div>
+          <div class="title_imdb_rate"> ${data.rating}</div>
+          
+          </div>
+          
+          </div>
+
+
+          </div>`;
+          $("related").appendChild(div);
+
+         })
+
+
+
   }
 
 }
