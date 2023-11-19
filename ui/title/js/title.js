@@ -1,8 +1,26 @@
 
+function $(id) { return document.getElementById(id); }
+
+
 //Initial References
 
-
 let result = document.getElementById("result");
+
+
+
+
+function drawCards(related_data){
+
+  for (var i in related_data){
+    var div = document.createElement("div");
+    div.innerHTML = `<div class='card'>test card${i}</div>`;
+    $("related").appendChild(div);
+  }
+
+}
+
+
+
 
 //Function to fetch data from API
 let getTitle = () => {
@@ -17,6 +35,18 @@ let getTitle = () => {
         //If movie exists in database
         console.log(data);
         if (data.type == "movie") {
+          parts_flag = false;
+
+          if(data.related.length==0){
+            $("related").remove();
+            parts_flag = false;
+          }else{
+            parts_flag = true;
+            /* draw cards */
+            drawCards(data.related);
+            
+          }
+
           result.innerHTML = `
           <div class="info">
             <img src=${data.image} class='poster'>
@@ -36,10 +66,17 @@ let getTitle = () => {
               </div>   
             </div>
           </div>
+
+          <div class="play-button"></div>
+
           <h3>${Ar_Story}</h3>
           <p>${data.arDescription}</p>
          
           `;
+          if(!parts_flag){
+          $("wrapper").style.top="50%";
+          $("wrapper").style.transform="translate(-50%,-50%)";
+                         }
         }
         //If movie does NOT exists in database
         else {

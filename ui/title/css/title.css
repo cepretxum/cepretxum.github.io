@@ -1,26 +1,31 @@
 * {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
   }
   body {
    
     background: #000;
+    overflow: scroll;
     
   }
   .wrapper {
+  
     font-size: 16px;
     width: 90vw;
     max-width: 37.5em;
     position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     left: 50%;
-    top: 53%;
+    top: 5%;
+
   }
+
+
   .container {
     position: relatives;
     background-color: #201f28;
@@ -106,6 +111,20 @@
     font-weight: 300;
     color:yellow;
   }
+
+
+  .play-button{
+    position: relative;
+    min-height: 2rem;
+    
+    background-color: #ffb92a;
+  }
+
+
+
+
+
+
   h3 {
     direction: rtl;
     font-weight: 500;
@@ -122,6 +141,36 @@
   .msg {
     text-align: center;
   }
+
+  .related{
+    position: relative;
+    /*background-color: #201f28;*/
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.2em 0;
+    margin-top: 1em;
+    /*margin-bottom: 3em;*/
+    /*border-radius: 0.6em;*/
+
+
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    overflow-x:scroll; /*make scrollable*/
+
+    gap: 5px;
+
+    color: #ffb92a;
+  }
+
+  #related::-webkit-scrollbar
+  {
+	display: none;
+    
+  } 
+
   .credit{
     position: relative;
     background-color: #201f28;
@@ -130,7 +179,7 @@
     font-size: 2em;
     padding: 0.2em 0;
     margin-top: 1em;
-    margin-bottom: 3em;
+    /*margin-bottom: 3em;*/
     border-radius: 0.6em;
     color: #ffb92a;
   }

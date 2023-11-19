@@ -1,35 +1,35 @@
 
-var ar_genres = {
+var ar_genre = {
     "Action":"أكشن",
     "Adventure":"مغامرة",
-    "Animation":"",
-    "Biography":"",
-    "Comedy":"",
-    "Crime":"",
-    "Documentary":"",
-    "Drama":"",
-    "Family":"",
+    "Animation":"رسوم متحركة",
+    "Biography":"سيرة ذاتية",
+    "Comedy":"كوميدى",
+    "Crime":"جريمة",
+    "Documentary":"وثائقى",
+    "Drama":"دراما",
+    "Family":"عائلى",
     "Fantasy":"خيال",
-    "Film-Noir":"",
-    "History":"",
-    "Horror":"",
-    "Music":"",
-    "Musical":"",
-    "Mystery":"",
-    "Romance":"",
-    "Sci-Fi":"",
-    "Short":"",
-    "Sport":"",
-    "Thriller":"",
-    "War":"",
-    "Western":""
+    "Film-Noir":"Film-Noir",
+    "History":"تاريخ",
+    "Horror":"رعب",
+    "Music":"موسيقى",
+    "Musical":"موسيقي",
+    "Mystery":"لغز",
+    "Romance":"رومانسى",
+    "Sci-Fi":"خيال علمى",
+    "Short":"قصير",
+    "Sport":"رياضة",
+    "Thriller":"اثارة",
+    "War":"حرب",
+    "Western":"غرب أمريكى"
 };
 
 
 function translate(k){
 
-    if(k in ar_genres){
-        return ar_genres[k];
+    if(k in ar_genre){
+        return ar_genre[k];
     }else{
         return k;
     }

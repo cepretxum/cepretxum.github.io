@@ -1,0 +1,23 @@
+
+
+
+
+.card {
+    position: relative;
+    font-size: 14px;
+    line-height: 21px;
+    width: 100px; /*200*/
+    height: 300px; /*390*/
+    overflow: hidden;
+    transition: 0.5s ease all;
+    background-color: #111111; /* extracted from imdb */
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+
+  }
+
+
+
+
