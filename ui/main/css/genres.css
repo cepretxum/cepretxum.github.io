@@ -40,13 +40,15 @@
    
     
     min-width: 100px;
+    
     flex-grow: 0;
     flex-shrink: 0;
 
     font-size: larger;
     
     padding: 5px;
-    border: solid #515357;
+    /*border: solid #515357;*/
+    border: solid #ffb92a;
     border-radius: 10px;
     background-color: #404247;
     color: yellow;
