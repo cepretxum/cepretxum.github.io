@@ -6,7 +6,12 @@ function $(id) { return document.getElementById(id); }
 
 let result = document.getElementById("result");
 
+let params = new URLSearchParams(window.location.search);
 
+/*
+  Test case :
+            /ui/title/title.html?imdbId=tt0325980
+ */
 
 
 function drawCards(related_data){
@@ -19,9 +24,9 @@ function drawCards(related_data){
          .then((data)=>{
 
           var div = document.createElement("div");
-          div.innerHTML = `<div class='card'>
-          <div class="title_poster"><img src="${data.image}" width="100%" height="100%"></img> </div>
-          <div class="title_name">${data.name.slice(0, 20) + "..."}</div>
+          div.innerHTML = `<div class='card' id='${data.imdbId}'>
+          <div class="title_poster" onclick="cardListener(this)"><img src="${data.image}" width="100%" height="100%"></img> </div>
+          <div class="title_name" onclick="cardListener(this)">${data.name.slice(0, 20) + "..."}</div>
           <div class="title_genre" id="title_genre"><div class="genre_box">${translate_list(data.genre).join("</div><div class='genre_box'>")}</div></div>
 
 
@@ -56,7 +61,7 @@ function drawCards(related_data){
 
 //Function to fetch data from API
 let getTitle = () => {
-   let imdbId = "tt0325980";
+   let imdbId = params.get("imdbId");
    let url = `/data/item/${imdbId}.json`;
    
   
@@ -99,7 +104,17 @@ let getTitle = () => {
             </div>
           </div>
 
-          <div class="play-button"></div>
+          <div class="play-button-space">
+          
+          <div class="play-button" onclick="playButtonListener(this)">
+               <div class="play-btn"> <span></span> </div>
+                <div class="play-btn-text">
+            تشغيل
+                </div>
+        </div>
+
+          
+          </div>
 
           <h3>${Ar_Story}</h3>
           <p>${data.arDescription}</p>
