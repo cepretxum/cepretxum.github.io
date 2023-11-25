@@ -69,9 +69,9 @@ let getTitle = () => {
     fetch(url)
       .then((resp) => resp.json())
       .then((data) => {
-        //If movie exists in database
+        //If title IS Movie
         console.log(data);
-        if (data.type == "movie") {
+        if (data.type == "Movie") {
           parts_flag = false;
 
           if(data.related.length==0){
@@ -111,7 +111,7 @@ let getTitle = () => {
                 <div class="play-btn-text">
             تشغيل
                 </div>
-        </div>
+          </div>
 
           
           </div>
@@ -125,7 +125,7 @@ let getTitle = () => {
           $("wrapper").style.transform="translate(-50%,-50%)";
                          }
         }
-        //If movie does NOT exists in database
+        //If title does NOT Movie 
         else {
           result.innerHTML = `<h3 class="msg">Not Movie</h3>`;
         }
