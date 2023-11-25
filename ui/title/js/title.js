@@ -149,10 +149,11 @@ getTitle();
 /* Dev */
 /* for developing purpose */
 
+/*
 
 player_url = window.location.origin+"/ui/player/player.html";
 
 Tree.Player(player_url);
 
 
-
+*/
