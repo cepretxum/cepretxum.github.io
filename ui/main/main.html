@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/categories.css" />
 
 
+  <script src="./js/translation.js" charset="utf-8" type="text/javascript"></script>
   <title></title>
 </head>
 
@@ -101,13 +102,27 @@
     <div class="genre">غربي</div>
    
   </div>
-  
-  
-  
+  <script>
+    function $(id){return document.getElementById(id);}
 
+    fetch("/data/items-map/mapper.json")
+      .then((resp) => resp.json())
+      .then((data) => {
+              g = data.genre;
+              $("genres").innerHTML=`<div class="genre">${translate_list(g).join("</div><div class='genre'>")}</div>`;
+      })
+      .catch(() => {
+       
+      });
+
+  </script>
+  
+  
+  
 
   <script src="./js/api.js" charset="utf-8" type="text/javascript"></script>
   <script src="./js/main.js" charset="utf-8" type="text/javascript"></script>
+  <script src="./js/listener.js" charset="utf-8" type="text/javascript"></script>
 </body>
 
 </html>

@@ -1,21 +1,6 @@
 
 
 
-
-
-genre = ["Drama","Action","Fantazia"];
-
-genre = ["غرب أمريكى","أكشن","كوميديا"];
-
-
-
-
-
-
-
-
-
-
 const root = document.getElementById("root")
 let movies = [],
     page = 1,
@@ -26,7 +11,7 @@ let movies = [],
     /* get data from api and recieve it to (html)rendrer */
 const fetchAndShowResults = async (URL) => {
         const data = await fetchData(URL)
-        data && showResults(data.results)
+        data && showResults(data)
     }
 
 
@@ -34,29 +19,28 @@ const fetchAndShowResults = async (URL) => {
 
     /* html template */
 
-const movieCard = (movie) =>
+const movieCard = (title) =>
     `<div class="col">
-          <div class="card">
+          <div class="card" id="${title.imdbId}">
           
-          <div class="title_poster"><img src="${movie.poster_path}" width="100%" height="100%"></img> </div>
+          <div class="title_poster" onclick="cardListener(this)"><img src="${title.image}" width="100%" height="100%"></img> </div>
+
+        
+          <div class="title_name" onclick="cardListener(this)">${title.name.slice(0, 20) + "..."}</div>
 
           
-
-          <div class="title_name">${movie.original_title}</div>
-
-          
-          <div class="title_genre" id="title_genre"><div class="genre_box">${genre.join("</div><div class='genre_box'>")}</div></div>
+          <div class="title_genre" id="title_genre"><div class="genre_box">${translate_list(title.genre).join("</div><div class='genre_box'>")}</div></div>
 
 
           <div class="year_imdb">
 
-          <div class="title_year">${new Date(movie.release_date).getFullYear()}</div>
+          <div class="title_year">${title.year}</div>
 
           <div class="title_imdb">
 
 
          <div class="title_imdb_star"> <div class="full-star"></div> </div>
-         <div class="title_imdb_rate"> ${movie.vote_average}</div>
+         <div class="title_imdb_rate"> ${title.rating}</div>
           
           </div>
           
@@ -68,40 +52,24 @@ const movieCard = (movie) =>
 
         /* render received data */
 const showResults = (items) => {
+    console.log(items);
     let content = !inSearchPage ? root.innerHTML : ""
     if (items && items.length > 0) {
         items.map((item) => {
             
-            let { poster_path, original_title, release_date, overview } = item
+            let { imdbId , name , image ,rating ,year , genre } = item
 
-            if (poster_path) {
-                poster_path = imgURL + poster_path
-            } else {
-                poster_path = "./img-01.jpeg"
+           
+            const titleItem = {
+                imdbId,
+                name,
+                image,
+                rating,
+                year,
+                genre
             }
 
-            if (original_title.length > 20) {
-                original_title = original_title.slice(0, 20) + "..."
-            }
-
-            if (!overview) {
-                overview = "No overview yet..."
-            }
-
-            if (!release_date) {
-                release_date = "No release date"
-            }
-
-            vote_average = item.vote_average;
-            const movieItem = {
-                poster_path,
-                original_title,
-                release_date,
-                vote_average,
-                overview,
-            }
-
-            content += movieCard(movieItem)
+            content += movieCard(titleItem)
         })
     } else {
         content += "<p>Something went wrong!</p>"
