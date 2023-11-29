@@ -30,7 +30,8 @@
 
 .category .category-content{
     position: relative;
-    background-color: rgb(24, 17, 17);
+    /*background-color: rgb(24, 17, 17);*/
+    background-color: #0f0a05;
     display: block;
     text-align: center;
     font-size: 2em;
