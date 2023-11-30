@@ -39,6 +39,7 @@ html {
 	overflow: hidden;
 	
 }
+
 .player:fullscreen {
 	padding-bottom: 100vh;
 }
