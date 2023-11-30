@@ -12,7 +12,9 @@ function cardListener(e){
 
 function playButtonListener(e){
 
-    alert("لسه بنختبر التصميم يا خلبوص");
+   player_url = window.location.origin+"/ui/player/player.html";
+
+   Tree.Player(player_url);
 
 }
 
