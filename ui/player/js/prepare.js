@@ -10,6 +10,7 @@ let params = new URLSearchParams(window.location.search);
 let imdbId = params.get("imdbId");
 
 
+$("play-frame").classList.add("hover");
 
 fetch(`/data/item/${imdbId}.json`)
          .then((resp)=>resp.json())
