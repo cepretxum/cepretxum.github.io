@@ -9,8 +9,7 @@ let params = new URLSearchParams(window.location.search);
 
 let imdbId = params.get("imdbId");
 
-
-$("play-frame").classList.add("hover");
+$("controls").style.transition="all 0.2s ease-out";
 
 fetch(`/data/item/${imdbId}.json`)
          .then((resp)=>resp.json())
