@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "تدور أحداث القصة حول سرقة فيروس مميت يُدعى (كميرا) والمصل الخاص به، يتعين على العميل (إيثان هانت) منع انتشار الفيروس.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/nskv03l3ruhqcnn/%255BCima-Now.CoM%255D_Mission.Impossible.II.2000.BluRay-480p.mp4/file"
+        }
+    ],
     "related": [
         "tt9603212",
         "tt0117060",

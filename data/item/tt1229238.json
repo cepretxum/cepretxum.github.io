@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يتورط صندوق النقد الدولي في تفجيرات بـ(الكرملين)، فيتوجه (إيثان هانت) وفريقه في محاولة منهم لإنقاذ الموقف.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/kbg5y4x1o5hhwms/%255BCima-Now.CoM%255D_Mission.Impossible.Ghost.Protocol.2011.BluRay-480p.mp4/file"
+        }
+    ],
     "related": [
         "tt9603212",
         "tt0117060",

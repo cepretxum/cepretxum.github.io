@@ -16,6 +16,11 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "خلال سلسلة من الأحداث المؤسفة، ينتهي المطاف بثلاث مومياوات في عصرنا الحالي بلندن، وينطلقوا في رحلة البحث عن خاتم ينتمي للعائلة الملكية سُرق عبر عالم الآثار اللورد كارنابي.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/0egyp0ajqvdcnfi/%255BCima-Now.CoM%255D_Mummies.2023.HD-1080p.mp4/file"
+        }
+    ],
     "related": []
 }

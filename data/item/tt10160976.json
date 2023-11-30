@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "تدور أحداث الجزء الثاني في فرنسا عام 1956 حيث يُقتل كاهن ويبدو أن هناك شر ينتشر جراء موته. تجد الأخت أيرين نفسها في مواجهة وجهاً لوجه مع قوة شيطانية مرة أخرى.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/aeihw0ndyclkg86/%255BCima-Now.CoM%255D_The.Nun.II.2023.HD-1080p.mp4/file"
+        }
+    ],
     "related": [
         "tt5814060"
     ]

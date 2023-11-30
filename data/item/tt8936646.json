@@ -15,7 +15,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يذهب تايلر تايك المجرم المرتزق في أكثر العمليات المهلكة، حينما يتعين عليه إنقاذ الابن المختطف لزعيم الجريمة الدولي عالميًا والذي يمكث في السجن، ليجد تايلر نفسه في مواجهة جيش كامل.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/df388wr4iltzxud/%255BCima-Now.CoM%255D_Extraction.2020.WEB-DL-1080p.mp4/file"
+        }
+    ],
     "related": [
         "tt12263384"
     ]

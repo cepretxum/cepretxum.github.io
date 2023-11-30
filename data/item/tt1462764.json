@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "في عام 1969، يعيش عالم الآثار والمغامر إنديانا جونز حياة عادية بعيدة عن الإثارة التي اعتاد عليها، ولكنه سرعان ما يعود في مغامرة رفقة ابنته الروحية هيلينا في مواجهة مع رجل نازي يُدعى فولر.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/h38omm984uspiyw/%255BCima-Now.CoM%255D_Indiana.Jones.and.the.Dial.of.Destiny.2023.HD-1080p.mp4/file"
+        }
+    ],
     "related": [
         "tt0087469",
         "tt0097576",

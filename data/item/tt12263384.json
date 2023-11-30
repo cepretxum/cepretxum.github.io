@@ -15,7 +15,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "بعد نجاته بأعجوبة خلال مهمته في بنجلاديش، يعود تايلر ريك مع فريقه في مهمة جديدة أكثر صعوبة.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/8ly7n07jk910erm/%255BCima-Now.CoM%255D_Extraction.2.2023.HD-1080p.mp4/file"
+        }
+    ],
     "related": [
         "tt8936646"
     ]

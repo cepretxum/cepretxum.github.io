@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يحاول اللورد (كاتلر بيكيت) استرداد السفينة الأسطورية (صندوق الرجل الميت)، فوفقًا للأسطورة، كل من يأخذ هذه السفينة، يملك السيطرة على مكاسب هائلة، ويصر (بيكيت) على استخدام هذه القوة الهائلة لتدمير كل القراصنة في منطقة البحر الكاريبي، ومن هنا يبدأ الصراع بينه وبين سبارو للحصول على السفينة الملعونة.",
-    "video": {},
+    "video": [
+        {
+            "provider": "mediafire",
+            "url": "https://www.mediafire.com/file/1y4g4eh1je8ej9h/%255BCima-Now.CoM%255D_Pirates.of.the.Caribbean.Dead.Mans.Chest.2006.BluRay-1080p.mp4/file"
+        }
+    ],
     "related": [
         "tt0325980",
         "tt1790809",

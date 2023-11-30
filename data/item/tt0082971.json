@@ -15,7 +15,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "تقوم الحكومة الأمريكية بتكليف عالم آثار يدعى إنديانا جونز بمهمة لاستعادة تابوت ضائع قبل أن يعثر عليه النازيون.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/c7il1fgndye6hkp/Indiana_Jones_and_Raiders_of_the_Lost_Ark_%25281981%2529.mp4/file"
+        }
+    ],
     "related": [
         "tt1462764",
         "tt0087469",

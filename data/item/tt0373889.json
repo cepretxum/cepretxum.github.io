@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "تتلاشى الفواصل بين العالم العادي والعالم السحري، ويكتشف (هاري بوتر) المزيد من الحقائق التي كانت قد غابت عنه منذ ولادته، وذلك بالتزامن مع تنامي الخطر الذي يمثله عودة الساحر الشرير (فولدمورت).",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/mr672yxhkzs9x5m/2007.mp4/file"
+        }
+    ],
     "related": [
         "tt0241527",
         "tt0295297",

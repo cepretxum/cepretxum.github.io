@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "تدور أحداث الفيلم حول مهمة يقوم بها فريق المهمات المستحيلة بقيادة إيثان هانت والتي يسابقون فيها الزمن بعد أن ذهبت إحدى مهماتهم على نحو خاطئ، حيث يحاولون منع استخدام ثلاثة رؤوس نووية على يد سولومون لاين ومجموعة متطرفة تُدعى (الرسل).",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/5i97yhiwxyqvpv5/%255BCima-Now.CoM%255D_Mission.Impossible.Fallout.2018.2015.BluRay-480p.mp4/file"
+        }
+    ],
     "related": [
         "tt9603212",
         "tt0117060",

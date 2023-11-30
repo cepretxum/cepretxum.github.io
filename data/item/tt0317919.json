@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يتقاعد العميل (إيثان هانت) من عمليات التدريب، لكن يُطلب منه العودة للعمل مرة أخرى لمواجهة تاجر سلاح ومعلومات دولي.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/cwreb5sr09cpy8o/%255BCima-Now.CoM%255D_Mission.Impossible.III.2006.BluRay-480p.mp4/file"
+        }
+    ],
     "related": [
         "tt9603212",
         "tt0117060",

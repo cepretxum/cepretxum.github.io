@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يخرج شاب في رحلة مع زوج والدته إلى جزيرة مجهولة من أجل اكتشافها والبحث عن جده المفقود بها، عقب تلقيه رسالة مشفرة بالروسية، ويتجها إلى جزيرة بالاو ويلتقيا هناك بالجد وابنته، ثم تسقط الطائرة على الجزيرة المفقودة بعد تحطمها لقاء إعصار عنيف، بعد ذلك يجد شون جده (مايكل كين) وتبدأ عدة مغامرات",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/mixcl55nz3gwzyc/%255Barabseed%255D.Journey.2.The.Mysterious.Island.2012.720p.BluRay.mp4/file"
+        }
+    ],
     "related": [
         "tt0373051"
     ]

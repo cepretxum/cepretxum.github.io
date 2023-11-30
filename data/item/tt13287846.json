@@ -16,6 +16,11 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يلقي الفيلم نظرة على القصة الحقيقية والشخصية لأصول القائد نابليون بونابرت وتسلقه السريع إلي الإمبراطورية، ويوضح علاقته المتقلبة بزوجته وحب حياته جوزفين.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/z3ve1ob1a5g7t8z/Napoleon.2023.1080p.V2.CAMRip.akwam.us.mp4/file"
+        }
+    ],
     "related": []
 }

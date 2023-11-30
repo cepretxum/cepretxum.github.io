@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "بعد حل وحدة المهام المستحيلة (IMF) يجد العميل إيثان هانت (توم كروز) نفسه بمفرده، بينما يواجه فريقه شبكة خاصة من العملاء ذوي المهارات العالية تحمل اسم النقابة.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/dqzha4paoymvhhj/%255BCima-Now.CoM%255D_Mission.Impossible.Rogue.Nation.2015.BluRay-480p.mp4/file"
+        }
+    ],
     "related": [
         "tt9603212",
         "tt0117060",

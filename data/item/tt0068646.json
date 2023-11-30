@@ -15,7 +15,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "لا يريد الدون (فيتو كورليوني) كبير إحدى عائلات المافيا الخمس في نيويورك لابنه الأصغر (مايكل) أن ينخرط في حياة الإجرام المنظم التي يعيشها",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/867f28grddl6y2f/%255BCima-Now.CoM%255D_The.Godfather.1972.BluRay-1080p.mp4/file"
+        }
+    ],
     "related": [
         "tt0071562",
         "tt0099674"

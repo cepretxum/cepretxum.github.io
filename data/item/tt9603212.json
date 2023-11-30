@@ -16,7 +16,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "يعود العميل إيثان هانت لاستخدام قدراته وخبرته لحل المزيد من الجرائم العالمية، حيث يسعى رفقة زملاؤه لتعقب سلاح مميت قبل أن يقع في الأيدي المظلمة.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/2h1pgaayyr99jmr/Mission.Impossible.Dead.Reckoning.Part.One.2023.480p.WEB-DL.AKWAM.mp4/file"
+        }
+    ],
     "related": [
         "tt0117060",
         "tt4912910",

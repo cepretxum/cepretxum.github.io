@@ -15,7 +15,12 @@
     "signed": false,
     "hasASubtitle": "",
     "arDescription": "في عام 1957، يتصارع (إنديانا)، الذي أصبح أكبر سنًا وأكثر حكمةً، مع عملاء الإتحاد السوفيتي الذين يقودهم (سبالكو) من أجل الحصول على الجمجمة البلورية، وتقود المغامرات (جونز) إلى أمريكا اللاتينية والجنوبية، ابتداءً من مدينة نيو مكسيكو، ثم كونيكتكت، والعاصمة المكسيكية ميكسيكو سيتي، وأدغال بيرو.",
-    "video": {},
+    "video": [
+        {
+            "provider":"mediafire",
+            "url":"https://www.mediafire.com/file/uo43yznva0h8ayn/%255Barabseed%255D.Indiana.Jones.And.The.Kingdom.Of.The.Crystal.Skull.2008.1080p.BluRay.mp4/file"
+        }
+    ],
     "related": [
         "tt1462764",
         "tt0087469",
