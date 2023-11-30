@@ -12,10 +12,10 @@ function cardListener(e){
 
 function playButtonListener(e){
 
-   player_url = window.location.origin+"/ui/player/player.html";
+    player_url = window.location.origin+"/ui/player/player.html?imdbId="+params.get("imdbId");
 
-   Tree.Player(player_url);
-
+    Tree.Player(player_url);
+    
 }
 
 
