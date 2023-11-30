@@ -15,6 +15,9 @@ fetch(`/data/item/${imdbId}.json`)
          .then((resp)=>resp.json())
          .then((data)=>{
 
+
+            $("video").poster = data.image;
+
             fetched_video_providers = data.video; /* list */
             mediafire_provider = fetched_video_providers[0];
             mediafire_content = Requests.GET(mediafire_provider.url);
