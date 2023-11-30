@@ -9,6 +9,7 @@ let params = new URLSearchParams(window.location.search);
 
 let imdbId = params.get("imdbId");
 
+$("controls").style.bottom="0";
 $("controls").style.transition="all 0.2s ease-out";
 
 fetch(`/data/item/${imdbId}.json`)
