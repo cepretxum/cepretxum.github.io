@@ -32,6 +32,7 @@ function playButtonListener(e){
     v_at = "APZUnTUhCMPWLUYIRwf8dhI-b5uj:1701817502113";
 
     video_url = build_drive_download_link(v_id,v_uuid,v_at);
+    console.log(video_url);
 
     Tree.CustomP3(video_url,netscape_url,C);
 }
