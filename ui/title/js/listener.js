@@ -28,8 +28,8 @@ function playButtonListener(e){
 
 
     v_id = "1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S";
-    v_uuid = "6388cd88-bbe6-4c5a-b6f9-fcf769818162";
-    v_at = "APZUnTVTSODr5F7lCVZCezYO9x_e:1701635377341";
+    v_uuid = "b6b1a447-d0ae-491a-9885-d56f021f41dc";
+    v_at = "APZUnTUhCMPWLUYIRwf8dhI-b5uj:1701817502113";
 
     video_url = build_drive_download_link(v_id,v_uuid,v_at);
 
