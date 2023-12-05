@@ -19,6 +19,12 @@ function playButtonListener(e){
     */
 
     netscape_url = window.location.origin+"/ui/player/netscape/netscape.txt";
+    C = "";
+    if(Network.isConnected()){
+        C = Requests.GET(netscape_url);
+    }
+
+
 
 
     v_id = "11ghnhcc8vIUKi6ZmiPVe62fsyRil2B7G";
@@ -27,7 +33,7 @@ function playButtonListener(e){
 
     video_url = build_drive_download_link(v_id,v_uuid,v_at);
 
-    Tree.CustomP3(video_url,netscape_url);
+    Tree.CustomP3(video_url,netscape_url,C);
 }
 
 function build_drive_download_link(id,uuid,at){
