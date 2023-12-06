@@ -28,12 +28,11 @@ function playButtonListener(e){
 
 
     v_id = "1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S";
-    v_uuid = "b6b1a447-d0ae-491a-9885-d56f021f41dc";
-    v_at = "APZUnTVEBvaQVwShmlTpLZpBYv9P:1701818124092";
+    v_uuid = "8472c0e1-d073-445c-9c3b-dd6df8e3021a";
+    v_at = "APZUnTUawUyrLq7GpyidRbfoHti7:1701862330822";
 
     video_url = build_drive_download_link(v_id,v_uuid,v_at);
-    console.log(video_url);
-    video_url="https://drive.usercontent.google.com/download?id=1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S&export=download&authuser=2&confirm=t&uuid=b6b1a447-d0ae-491a-9885-d56f021f41dc&at=APZUnTX1dqN5f3oy23bf3P8zE8cI%3A1701819033763";
+
     Tree.CustomP3(video_url,netscape_url,C);
 }
 
