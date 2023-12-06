@@ -18,6 +18,9 @@ function playButtonListener(e){
     Tree.Player(player_url);
     */
 
+    customp3_play("1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S",0);
+
+    /*
     netscape_url = window.location.origin+"/ui/player/netscape/netscape.txt";
     C = "";
     if(Network.isConnected()){
@@ -34,6 +37,7 @@ function playButtonListener(e){
     video_url = build_drive_download_link(v_id,v_uuid,v_at);
 
     Tree.CustomP3(video_url,netscape_url,C);
+   */
 }
 
 function build_drive_download_link(id,uuid,at){
