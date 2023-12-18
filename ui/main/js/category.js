@@ -65,14 +65,15 @@ for (var i=0;i<categories.length;i++){
 
     
 
+    cat_ref = categories.item(i);
+    cat_name = cat_ref.id;
+    cat_board = cat_ref.getElementsByClassName("category-content")[0];
    
 
-    fetch(`/data/items-map/category/${categories.item(i).id}.json`)
+    fetch(`/data/items-map/category/${cat_name}.json`)
          .then((resp)=>resp.json())
          .then((data)=>{
 
-            cat_name = categories.item(i).id;
-            cat_board = categories.item(i).getElementsByClassName("category-content")[0];
             cat_imdbIds = data;
 
             console.log(cat_name);
