@@ -67,7 +67,7 @@ for (var i=0;i<categories.length;i++){
 
    
 
-    fetch(`/data/items-map/category/${cat_name}.json`)
+    fetch(`/data/items-map/category/${categories.item(i).id}.json`)
          .then((resp)=>resp.json())
          .then((data)=>{
 
