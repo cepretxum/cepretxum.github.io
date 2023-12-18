@@ -6,9 +6,16 @@ let categories = document.getElementsByClassName("category");
 
 
 
-function draw_category_content(board_ref,cat_imdbIds){
+function draw_category_content(cat_name,board_ref){
 
-    for (var i in cat_imdbIds){
+
+    fetch(`/data/items-map/category/${cat_name}.json`)
+         .then((resp)=>resp.json())
+         .then((data)=>{
+
+          cat_imdbIds = data;
+
+       for (var i in cat_imdbIds){
 
 
         fetch(`/data/item/${cat_imdbIds[i]}.json`)
@@ -46,6 +53,11 @@ function draw_category_content(board_ref,cat_imdbIds){
     
       }
 
+    })
+
+
+
+
 }
 
 
@@ -61,7 +73,7 @@ function draw_category_content(board_ref,cat_imdbIds){
 
 
 
-for (var i=0;i<categories.length;i++){
+for (var i=0; i<categories.length; i++){
 
     
 
@@ -69,20 +81,14 @@ for (var i=0;i<categories.length;i++){
     cat_name = cat_ref.id;
     cat_board = cat_ref.getElementsByClassName("category-content")[0];
    
+    console.log(cat_name);
+    console.log(cat_board);
 
-    fetch(`/data/items-map/category/${cat_name}.json`)
-         .then((resp)=>resp.json())
-         .then((data)=>{
+    
 
-            cat_imdbIds = data;
+    draw_category_content(cat_name,cat_board);
 
-            console.log(cat_name);
-            console.log(cat_board);
-            console.log(cat_imdbIds);
-
-            draw_category_content(cat_board,cat_imdbIds);
-
-         })
+       
 
 
 
