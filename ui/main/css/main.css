@@ -27,7 +27,7 @@ body {
 
 .relative-toolbar-space{
   position: relative;
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: #0f0a05;
 }
