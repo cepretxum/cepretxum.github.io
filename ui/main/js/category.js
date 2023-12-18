@@ -1,7 +1,7 @@
 
 function $(id) { return document.getElementById(id); }
 
-let categories = $("category");
+let categories = document.getElementsByClassName("category");
 
 
 for (var i=0;i<categories.length;i++){
