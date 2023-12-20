@@ -25,7 +25,7 @@ function draw_category_content(cat_name,board_ref){
               var div = document.createElement("div");
               div.innerHTML = `<div class='cat_card' id='${data.imdbId}'>
               <div class="title_poster" onclick="cardListener(this)"><img src="/data/media/image/${data.imdbId}.jpg" width="100%" height="100%"></img> </div>
-              <div class="title_name" onclick="cardListener(this)">${data.name.slice(0, 20) + "..."}</div>
+              <div class="title_name" onclick="cardListener(this)">${((data.name.length>20) ? data.name.slice(0, 20) + "..." : data.name)}</div>
               <div class="title_genre" id="title_genre"><div class="genre_box">${translate_list(data.genre).join("</div><div class='genre_box'>")}</div></div>
     
     
@@ -81,16 +81,10 @@ for (var i=0; i<categories.length; i++){
     cat_name = cat_ref.id;
     cat_board = cat_ref.getElementsByClassName("category-content")[0];
    
-    console.log(cat_name);
-    console.log(cat_board);
-
-    
 
     draw_category_content(cat_name,cat_board);
 
        
-
-
 
 }
 
