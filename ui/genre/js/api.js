@@ -1,7 +1,7 @@
 
-let params = new URLSearchParams(window.location.search);
+let specific_params = new URLSearchParams(window.location.search);
 
-const URL = `/data/items-map/genre/${params.get("genreId")}/page/page-1.json`;
+const URL = `/data/items-map/genre/${specific_params.get("genreId")}/page/page-1.json`;
 
 
 
@@ -20,7 +20,8 @@ async function fetchData(URL) {
 
 
 const getSpecificPage = (page) => {
-    //const URL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=${page}`;
-    const URL = `/data/items-map/genre/${params.get("genreId")}/page/page-${page}.json`
+    
+    const URL = `/data/items-map/genre/${specific_params.get("genreId")}/page/page-${page}.json`
     fetchAndShowResults(URL);
+    
 }
