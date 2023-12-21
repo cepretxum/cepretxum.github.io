@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
 
 body {
     color: white;
