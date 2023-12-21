@@ -1,8 +1,9 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
-  outline: none;
-}
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
 
 body {
     color: white;
@@ -32,7 +33,7 @@ body {
     font-size: larger;
     font-weight: bolder;
     /*color: #ffb92a;*/
-  
+
     margin-bottom: 50px;
     border-bottom: solid #ffb92a;
 }
