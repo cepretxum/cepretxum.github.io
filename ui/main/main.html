@@ -97,7 +97,10 @@
       .then((resp) => resp.json())
       .then((data) => {
               g = data.genre;
-              $("genres").innerHTML=`<div class="genre">${translate_list(g).join("</div><div class='genre'>")}</div>`;
+              /*$("genres").innerHTML=`<div class="genre">${translate_list(g).join("</div><div class='genre'>")}</div>`;*/
+              for (var i in g){
+                $("genres").innerHTML = $("genres").innerHTML + `<div class="genre" id="${g[i]}" onclick="genreListener(e)">${translate(g[i])}</div>`;
+              }
       })
       .catch(() => {
        

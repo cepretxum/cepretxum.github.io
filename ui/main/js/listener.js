@@ -13,3 +13,11 @@ function cardListener(e){
     Tree.Title(title_url);
 
 }
+
+
+function genreListener(e){
+    genre_url = window.location.origin+"/ui/genre/genre.html?genreId="+e.id;
+    Tree.Genre(genre_url);
+}
+
+
