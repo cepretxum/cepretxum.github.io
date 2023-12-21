@@ -1,0 +1,35 @@
+
+
+body {
+    color: white;
+    font-family: "microsoft yahei", arial, -apple-system, BlinkMacSystemFont,
+      "segoe ui", roboto, oxygen, cantarell, "helvetica neue", ubuntu, sans-serif;
+    background: #000000;
+    
+  }
+
+
+.header_top_space{
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+}
+
+
+.genre_header {
+    position: relative;
+    
+    width: 100%;
+    min-height: 50px;
+
+    right: 5%;
+
+    direction: rtl;
+    font-size: larger;
+    font-weight: bolder;
+    /*color: #ffb92a;*/
+
+    border-bottom: solid #ffb92a;
+}
+
+
