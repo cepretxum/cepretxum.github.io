@@ -36,6 +36,7 @@ function hideMsg(){
      {
     // if Msg-id element Exists.
     el.style.visibility="hidden";
+    el.remove();
 
      }
      else{
