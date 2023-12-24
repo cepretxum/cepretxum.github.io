@@ -41,6 +41,7 @@ function customp3_play(id,authuser=0){
     C = Requests.GET(netscape_url);
     Tree.CustomP3(video_url,netscape_url,C);
 
+    hideMsg();
 }
 
 
