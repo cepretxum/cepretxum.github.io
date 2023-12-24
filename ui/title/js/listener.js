@@ -19,7 +19,10 @@ function playButtonListener(e){
     */
 
     Msg();
-    customp3_play("1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S",0);
+    setTimeout(function() {
+        customp3_play("1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S",0);
+    }, 1000);
+    
 
     /*
     netscape_url = window.location.origin+"/ui/player/netscape/netscape.txt";
