@@ -37,7 +37,7 @@ let netscape_url = window.location.origin+"/ui/player/netscape/netscape.txt";
 
 
 function customp3_play(id,authuser=0){
-
+    Msg();
     video_url = customp3_downloadURL(customp3_genesis(id,authuser),netscape_url);
     C = Requests.GET(netscape_url);
     Tree.CustomP3(video_url,netscape_url,C);
