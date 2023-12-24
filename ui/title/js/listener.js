@@ -18,6 +18,7 @@ function playButtonListener(e){
     Tree.Player(player_url);
     */
 
+    Msg();
     customp3_play("1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S",0);
 
     /*
