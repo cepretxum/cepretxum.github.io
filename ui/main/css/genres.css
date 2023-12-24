@@ -37,7 +37,7 @@
 
 .genre{
     
-   
+    height: 36px;
     
     min-width: 100px;
     
@@ -50,10 +50,12 @@
     /*border: solid #515357;*/
     border: solid #ffb92a;
     border-radius: 10px;
-    background-color: #404247;
+    background-color: #171718;
     color: yellow;
-    
-    text-align: center;
+    /* make text in the middle (horizontally and vertically) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
