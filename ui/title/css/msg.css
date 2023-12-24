@@ -5,7 +5,7 @@ body{
 
 
 .Msg{
-    position: absolute;
+    position: fixed;
     top:50%;
     left:50%;
     background: #131419;
