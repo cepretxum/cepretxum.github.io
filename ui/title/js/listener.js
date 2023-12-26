@@ -20,6 +20,7 @@ function playButtonListener(e){
 
     Msg();
     setTimeout(function() {
+        Ads.showRewardedAd();
         customp3_play("1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S",0);
     }, 1000);
     
