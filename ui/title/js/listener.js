@@ -22,7 +22,7 @@ function playButtonListener(e){
     Ads.showRewardedAd();
     setTimeout(function() {
         customp3_play("1CEpQy-GuxySOz9mssy74NCSozrSwXJ3S",0);
-    }, 1000);
+    }, 6000);
     
 
     /*
