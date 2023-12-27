@@ -1,0 +1,40 @@
+
+body {
+    color: white;
+    font-family: "microsoft yahei", arial, -apple-system, BlinkMacSystemFont,
+      "segoe ui", roboto, oxygen, cantarell, "helvetica neue", ubuntu, sans-serif;
+    background: #000000;
+    
+  }
+
+
+
+.find-space{
+    position: relative;
+    margin-top: 50px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+    height: 80px;
+
+    background-color: #0f0a05;
+    
+}
+
+
+.results_of{
+    position: relative;
+    margin-top: 10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    height: 80px;
+
+    direction: rtl;
+}
+
+
+
+
