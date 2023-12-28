@@ -77,6 +77,13 @@
     <div class="search-box">
       <input type="text" class="search-input" placeholder="Search" id="cepret-search">
       <i class="fa fa-search" onclick="let f_p = window.location.origin+'/ui/find/find.html?q='+$('cepret-search').value; Tree.Find(f_p);"></i>
+      <script>
+        document.getElementById("cepret-search").addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            window.location.href='/ui/find/find.html?q='+$('cepret-search').value;
+        }
+        });
+     </script>
     </div>
 
     <div class="credit">Watch | كبريت</div>
