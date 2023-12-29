@@ -33,9 +33,6 @@
     border-radius: 0.6em;
     -webkit-box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
-    /* decorate */
-    border-top: solid #ffb92a;
-    border-right: solid #ffb92a;
   }
   
 
@@ -141,6 +138,7 @@
     text-align: justify;
     color: rgb(243, 173, 43);
     direction: rtl;
+    border-bottom: solid #ffb92a;
   }
   .msg {
     text-align: center;
@@ -177,7 +175,8 @@
 
   .credit{
     position: relative;
-    background-color: #201f28;
+    /*background-color: #201f28;*/
+    background: linear-gradient(to right, rgb(95, 100, 52) 0%,rgba(247, 203, 9, 0.027) 90%);
     display: block;
     text-align: center;
     font-size: 2em;
@@ -186,10 +185,6 @@
     /*margin-bottom: 3em;*/
     border-radius: 0.6em;
     color: #ffb92a;
-
-    /* decorate */
-    border-bottom: solid #ffb92a;
-    border-left: solid #ffb92a;
   }
   
   
