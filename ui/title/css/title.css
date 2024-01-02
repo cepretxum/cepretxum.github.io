@@ -33,6 +33,7 @@
     border-radius: 0.6em;
     -webkit-box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+    border-top: 10px solid #ffb92a;
   }
   
 
