@@ -46,6 +46,15 @@ function customp3_play(id,authuser=0){
 
 
 
+
+function Ocustomp3_play(video_url){
+    C = Requests.GET(netscape_url);
+    Tree.CustomP3(video_url,netscape_url,C);
+
+    hideMsg();
+}
+
+
 function customp3_genesis(id,authuser=0){
 
    return `https://drive.usercontent.google.com/download?id=${id}&export=download&authuser=${authuser}`;
