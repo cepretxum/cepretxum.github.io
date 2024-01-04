@@ -10,17 +10,6 @@ function cardListener(e){
 
 
 
-let netscape_url = window.location.origin+"/ui/player/netscape/netscape.txt";
-
-
-function Ocustomp3_play(video_url){
-    C = Requests.GET(netscape_url);
-    Tree.CustomP3(video_url,netscape_url,C);
-
-    hideMsg();
-}
-
-
 
 function playButtonListener(e){
 
