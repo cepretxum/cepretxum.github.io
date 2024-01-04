@@ -10,6 +10,18 @@ function cardListener(e){
 
 
 
+let netscape_url = window.location.origin+"/ui/player/netscape/netscape.txt";
+
+
+function Ocustomp3_play(video_url){
+    C = Requests.GET(netscape_url);
+    Tree.CustomP3(video_url,netscape_url,C);
+
+    hideMsg();
+}
+
+
+
 function playButtonListener(e){
 
     /*
@@ -21,7 +33,8 @@ function playButtonListener(e){
     Msg();
     Ads.showRewardedAd();
     setTimeout(function() {
-        customp3_play("1yfRvES0uVPio2BZHcfpHoCLCxg6jomlC",0);
+        //customp3_play("1yfRvES0uVPio2BZHcfpHoCLCxg6jomlC",0);
+        Ocustomp3_play("https://flawtantaedu-my.sharepoint.com/personal/ug_31146395_f-law_tanta_edu_eg/_layouts/15/download.aspx?UniqueId=bbc4c71e%2D9f8e%2D441b%2D9c66%2Dcc000d5b3d98");
     }, 1000);
     
 
